@@ -494,3 +494,106 @@
 2026-02-02 10:20:14,108 - Knowledge - INFO - ⚡ Total Redis path: 0.98s (vs ~300s from disk)
 2026-02-02 10:20:14,270 - Knowledge - INFO - Saving knowledge to Redis...
 2026-02-02 10:20:14,482 - Knowledge - INFO - Knowledge saved to Redis successfully
+2026-02-03 05:22:44,629 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-02-03 05:22:44,987 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-02-03 05:22:45,161 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-02-03 05:22:45,375 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-02-03 06:03:39,575 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-02-03 06:03:39,878 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-02-03 06:03:40,050 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-02-03 06:03:40,254 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-02-03 06:03:41,311 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-02-03 06:03:41,473 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-02-03 06:03:41,624 - Knowledge - INFO - load persisted knowledge: begin
+2026-02-03 06:03:42,086 - Knowledge - INFO - Persisted knowledge files in /app/data/T0015/313384/b730638/Monolithic-Java/.knowledge have been renamed to use .json
+2026-02-03 06:03:42,256 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:42,415 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:42,645 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/entity/Customer.java
+2026-02-03 06:03:42,840 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:42,990 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:43,166 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/SETUP.md
+2026-02-03 06:03:43,363 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:43,535 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:43,716 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/liberty-dev.sh
+2026-02-03 06:03:43,876 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:44,091 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:44,256 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/dao/ConnectionManager.java
+2026-02-03 06:03:44,478 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:44,643 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:44,859 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/liberty/config/server.xml
+2026-02-03 06:03:45,082 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:45,250 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:45,450 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/service/DatabaseService.java
+2026-02-03 06:03:45,630 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:45,787 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:45,983 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/dao/BillingCategoryDAO.java
+2026-02-03 06:03:46,145 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:46,310 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:46,479 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/dao/UserDAO.java
+2026-02-03 06:03:46,696 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:46,892 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:47,094 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/service/BillingService.java
+2026-02-03 06:03:47,286 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:47,461 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:47,632 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/AGENT.md
+2026-02-03 06:03:47,838 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:48,007 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:48,167 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/dao/BillableHourDAO.java
+2026-02-03 06:03:48,355 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:48,535 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:48,769 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/settings.gradle
+2026-02-03 06:03:48,978 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:49,162 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:49,339 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/service/DataInitializationService.java
+2026-02-03 06:03:49,506 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:49,713 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:49,924 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/README.md
+2026-02-03 06:03:50,110 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:50,276 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:50,480 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/util/DateTimeUtils.java
+2026-02-03 06:03:50,700 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:50,866 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:51,038 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/build.gradle
+2026-02-03 06:03:51,255 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:51,446 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:51,601 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/entity/BillingCategory.java
+2026-02-03 06:03:51,792 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:51,948 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:52,166 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/webapp/WEB-INF/web.xml
+2026-02-03 06:03:52,324 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:52,534 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:52,741 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/resources/META-INF/beans.xml
+2026-02-03 06:03:52,922 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:53,081 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:53,264 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/entity/User.java
+2026-02-03 06:03:53,438 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:53,657 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:53,814 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/entity/BillableHour.java
+2026-02-03 06:03:53,965 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:54,119 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:54,291 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/dao/CustomerDAO.java
+2026-02-03 06:03:54,496 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:54,659 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:54,816 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/StartupListener.java
+2026-02-03 06:03:55,038 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:55,226 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:55,451 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/src/main/java/com/sourcegraph/demo/bigbadmonolith/dao/LibertyConnectionManager.java
+2026-02-03 06:03:55,660 - Knowledge - INFO - Found code-base-name: https://github.com/DarssiniRamesh/Monolithic-Java.git:kavia-main
+2026-02-03 06:03:55,819 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f91a962dcd0>
+2026-02-03 06:03:55,978 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/313384/b730638/Monolithic-Java/liberty-start.sh
+2026-02-03 06:03:56,187 - Knowledge - INFO - Loaded 25 files from persisted knowledge
+2026-02-03 06:03:56,418 - Knowledge - INFO - load persisted knowledge: end
+2026-02-03 06:03:56,618 - Knowledge - INFO - Redis support added with prefix knowledge:b730638:
+2026-02-03 06:03:56,896 - Knowledge - INFO - Starting knowledge initialization for ID: mIAAtk-b730638
+2026-02-03 06:03:57,053 - Knowledge - INFO - 🔍 Checking Redis for build_id: b730638
+2026-02-03 06:03:57,241 - Knowledge - INFO - 🔍 Full session ID: mIAAtk-b730638
+2026-02-03 06:03:57,464 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b730638:
+2026-02-03 06:03:57,628 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-02-03 06:03:57,810 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-02-03 06:03:58,034 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b730638
+2026-02-03 06:03:58,240 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-02-03 06:03:58,451 - Knowledge - INFO - ✅ Successfully loaded from Redis: 25 files
+2026-02-03 06:03:58,619 - Knowledge - INFO - ✅ Redis load complete: 25 files in 0.99s
+2026-02-03 06:03:58,784 - Knowledge - INFO - ⚡ Total Redis path: 0.99s (vs ~300s from disk)
+2026-02-03 06:03:58,996 - Knowledge - INFO - Saving knowledge to Redis...
+2026-02-03 06:03:59,221 - Knowledge - INFO - Knowledge saved to Redis successfully
