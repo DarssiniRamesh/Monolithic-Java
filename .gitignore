@@ -41,3 +41,4 @@ bin/
 ### Derby Database ###
 data/
 derby.log
+.file_activity_report.json
